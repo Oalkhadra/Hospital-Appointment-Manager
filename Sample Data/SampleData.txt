@@ -1,0 +1,165 @@
+-- ﻿DEPARTMENTS
+python hospital_db.py add_department '{"DepartmentID": 1, "DepartmentName": "Cardiology", "TotalRooms": 100}'
+python hospital_db.py add_department '{"DepartmentID": 2, "DepartmentName": "Pediatrics", "TotalRooms": 100}'
+python hospital_db.py add_department '{"DepartmentID": 3, "DepartmentName": "Radiology", "TotalRooms": 100}'
+
+
+-- RECEPTIONIST
+
+Dept 1:
+python hospital_db.py add_receptionist '{"EmployeeID": 211113, "LastName": "Jones", "FirstName": "Samantha", "DepartmentID": 1}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211114, "LastName": "Raventhiran", "FirstName": "Sharmika", "DepartmentID": 1}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211115, "LastName": "Miller", "FirstName": "Marie", "DepartmentID": 1}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211116, "LastName": "Martinez", "FirstName": "Martin", "DepartmentID": 1}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211117, "LastName": "Williams", "FirstName": "Joe", "DepartmentID": 1}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211118, "LastName": "Davis", "FirstName": "Dan", "DepartmentID": 1}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211119, "LastName": "Lopez", "FirstName": "Maria", "DepartmentID": 1}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211120, "LastName": "Hall", "FirstName": "Thomas", "DepartmentID": 1}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211121, "LastName": "Moore", "FirstName": "Mia", "DepartmentID": 1}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211122, "LastName": "Martin", "FirstName": "Taylor", "DepartmentID": 1}'
+
+
+Dept 2:
+python hospital_db.py add_receptionist '{"EmployeeID": 211123, "LastName": "Elliot", "FirstName": "Julia", "DepartmentID": 2}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211124, "LastName": "Convery", "FirstName": "Chad", "DepartmentID": 2}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211125, "LastName": "Johnson", "FirstName": "John", "DepartmentID": 2}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211126, "LastName": "Gerwig", "FirstName": "Greta", "DepartmentID": 2}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211127, "LastName": "Hookway", "FirstName": "Maddy", "DepartmentID": 2}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211128, "LastName": "Verendia", "FirstName": "Katarina", "DepartmentID": 2}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211129, "LastName": "Bakken", "FirstName": "Nora", "DepartmentID": 2}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211130, "LastName": "Holtet", "FirstName": "Sina", "DepartmentID": 2}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211131, "LastName": "Johnson", "FirstName": "Alida", "DepartmentID": 2}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211132, "LastName": "Jones", "FirstName": "Amanda", "DepartmentID": 2}'
+
+
+Dept 3:
+python hospital_db.py add_receptionist '{"EmployeeID": 211133, "LastName": "Miller", "FirstName": "Lillie", "DepartmentID": 3}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211134, "LastName": "Umansky", "FirstName": "Rachel", "DepartmentID": 3}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211135, "LastName": "Kardashian", "FirstName": "Jill", "DepartmentID": 3}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211136, "LastName": "Garcia", "FirstName": "Miranda", "DepartmentID": 3}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211137, "LastName": "Rodriguez", "FirstName": "Roger", "DepartmentID": 3}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211138, "LastName": "Miller", "FirstName": "Mandy", "DepartmentID": 3}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211139, "LastName": "Brown", "FirstName": "Cameron", "DepartmentID": 3}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211140, "LastName": "Lee", "FirstName": "Laura", "DepartmentID": 3}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211141, "LastName": "Martin", "FirstName": "Ellen", "DepartmentID": 3}'
+python hospital_db.py add_receptionist '{"EmployeeID": 211142, "LastName": "Woodhouse", "FirstName": "Laura", "DepartmentID": 3}'
+
+-- PRACTITIONERS
+
+Dept 1:
+python hospital_db.py add_practitioner  '{"EmployeeID": 111111, "LastName": "Jones", "FirstName": "Amanda", "LicenseNumber": 4567,  "Title": "Doctor", "DepartmentID": 1, "Specialty": "General heart disease"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111112, "LastName": "Ha", "FirstName": "Frances", "LicenseNumber": 4487,  "Title": "Doctor", "DepartmentID": 1, "Specialty": "General adult"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111113, "LastName": "Martin", "FirstName": "Julia", "LicenseNumber": 4377,  "Title": "Nurse", "DepartmentID": 1, "Specialty": "General children"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111114, "LastName": "Convery", "FirstName": "Allie", "LicenseNumber": 4499,  "Title": "Doctor", "DepartmentID": 1, "Specialty": "Heart rehabilitation"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111115, "LastName": "Brown", "FirstName": "Brad", "LicenseNumber": 3444,  "Title": "Doctor", "DepartmentID": 1, "Specialty": "Heart surgeon"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111116, "LastName": "Jorgensen", "FirstName": "Kevin", "LicenseNumber": 2888,  "Title": "Doctor", "DepartmentID": 1, "Specialty": "Heart surgeon"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111117, "LastName": "Peterson", "FirstName": "Ted", "LicenseNumber": 1678,  "Title": "Doctor", "DepartmentID": 1, "Specialty": "Heart rehabilitation"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111118, "LastName": "Anderson", "FirstName": "Anders", "LicenseNumber": 2222,  "Title": "Doctor", "DepartmentID": 1, "Specialty": "Heart failure specialist"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111119, "LastName": "Jones", "FirstName": "Mira", "LicenseNumber": 4444,  "Title": "Doctor", "DepartmentID": 1, "Specialty": "Heart failure specialist"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111120, "LastName": "Relucio", "FirstName": "Brianna", "LicenseNumber": 7777,  "Title": "Doctor", "DepartmentID": 1, "Specialty": "Heart surgeon"}'
+
+
+Dept 2:
+python hospital_db.py add_practitioner  '{"EmployeeID": 111121, "LastName": "Flores", "FirstName": "Vian", "LicenseNumber": 1234,  "Title": "Doctor", "DepartmentID": 2, "Specialty": "Neonatologist"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111122, "LastName": "Vu", "FirstName": "Lillie", "LicenseNumber": 1235,  "Title": "Doctor", "DepartmentID": 2, "Specialty": "Emergency Pediatric Medicine"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111123, "LastName": "Baker", "FirstName": "Brian", "LicenseNumber": 1236,  "Title": "Doctor", "DepartmentID": 2, "Specialty": "Pediatric Cardiologist"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111124, "LastName": "Green", "FirstName": "Chelsea", "LicenseNumber": 1237,  "Title": "Doctor", "DepartmentID": 2, "Specialty": "Pediatric Rheumatologist"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111125, "LastName": "Campbell", "FirstName": "Ryan", "LicenseNumber": 1238,  "Title": "Doctor", "DepartmentID": 2, "Specialty": "Pediatric Pulmonologist"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111126, "LastName": "Keller", "FirstName": "Nicky", "LicenseNumber": 1239,  "Title": "Doctor", "DepartmentID": 2, "Specialty": "Developmental Behavioral Pediatrics"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111127, "LastName": "Adams", "FirstName": "Millie", "LicenseNumber": 1244,  "Title": "Doctor", "DepartmentID": 2, "Specialty": "Developmental Behavioral Pediatrics"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111128, "LastName": "Nguyen", "FirstName": "Nick", "LicenseNumber": 1245,  "Title": "Doctor", "DepartmentID": 2, "Specialty": "Premature Infants"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111129, "LastName": "Cardone", "FirstName": "Ellie", "LicenseNumber": 1246,  "Title": "Nurse", "DepartmentID": 2, "Specialty": "General Adult"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111130, "LastName": "Hall", "FirstName": "Julie", "LicenseNumber": 1247,  "Title": "Doctor", "DepartmentID": 2, "Specialty": "Premature Infants"}'
+
+
+Dept 3:
+python hospital_db.py add_practitioner  '{"EmployeeID": 111131, "LastName": "Hall", "FirstName": "Kathleen", "LicenseNumber": 1248,  "Title": "Doctor", "DepartmentID": 3, "Specialty": "Pain medicine"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111132, "LastName": "Jones", "FirstName": "Nick", "LicenseNumber": 1249,  "Title": "Doctor", "DepartmentID": 3, "Specialty": "Nuclear radiology"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111133, "LastName": "Wright", "FirstName": "Joe", "LicenseNumber": 1255,  "Title": "Doctor", "DepartmentID": 3, "Specialty": "Pediatric radiology"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111134, "LastName": "Young", "FirstName": "Johanna", "LicenseNumber": 1256,  "Title": "Doctor", "DepartmentID": 3, "Specialty": "Neuroradiology"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111135, "LastName": "Lewis", "FirstName": "Aurora", "LicenseNumber": 1257,  "Title": "Doctor", "DepartmentID": 3, "Specialty": "Palliative medicine"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111136, "LastName": "Ramirez", "FirstName": "Mariana", "LicenseNumber": 1258,  "Title": "Doctor", "DepartmentID": 3, "Specialty": "Neuroradiology"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111137, "LastName": "Clark", "FirstName": "Sophie", "LicenseNumber": 1259,  "Title": "Doctor", "DepartmentID": 3, "Specialty": "Pediatric radiology"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111138, "LastName": "Harris", "FirstName": "Brooke", "LicenseNumber": 1266,  "Title": "Doctor", "DepartmentID": 3, "Specialty": "Pain medicine"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111139, "LastName": "Thompson", "FirstName": "Amanda", "LicenseNumber": 1267,  "Title": "Doctor", "DepartmentID": 3, "Specialty": "Neuroradiology"}'
+python hospital_db.py add_practitioner  '{"EmployeeID": 111140, "LastName": "Mitchell", "FirstName": "Wyatt", "LicenseNumber": 1268,  "Title": "Doctor", "DepartmentID": 3, "Specialty": "Nuclear radiology"}'
+
+
+-- PATIENTS
+
+Dept 1:
+python hospital_db.py add_patient  '{"PatientID": 1000, "LastName": "Andersen", "FirstName": "Ingrid",  "DOB": "1999-10-10",  "Gender": "Female",  "Insurance": "Aetna", "PastProcedures": "Knee operation",  "Notes":"Successfully completed Operation",  "DepartmentID": 1}'
+python hospital_db.py add_patient '{"PatientID": 1001, "LastName": "Smith", "FirstName": "John", "DOB": "1985-01-01", "Gender": "Male", "Insurance": "Blue Cross", "PastProcedures": "Angioplasty", "Notes": "Recovery going well", "DepartmentID": 1}'
+python hospital_db.py add_patient '{"PatientID": 1002, "LastName": "Johnson", "FirstName": "Emily", "DOB": "1975-05-15", "Gender": "Female", "Insurance": "UnitedHealth", "PastProcedures": "Stent placement", "Notes": "Regular checkups needed", "DepartmentID": 1}'
+python hospital_db.py add_patient '{"PatientID": 1003, "LastName": "Williams", "FirstName": "Oliver", "DOB": "1990-08-22", "Gender": "Male", "Insurance": "Kaiser", "PastProcedures": "Heart valve surgery", "Notes": "Scheduled for follow-up next month", "DepartmentID": 1}'
+python hospital_db.py add_patient '{"PatientID": 1004, "LastName": "Brown", "FirstName": "Isabella", "DOB": "1982-11-30", "Gender": "Female", "Insurance": "Cigna", "PastProcedures": "Pacemaker implant", "Notes": "Check battery annually", "DepartmentID": 1}'
+python hospital_db.py add_patient '{"PatientID": 1005, "LastName": "Davis", "FirstName": "Ethan", "DOB": "1978-02-20", "Gender": "Male", "Insurance": "Humana", "PastProcedures": "Coronary artery bypass", "Notes": "Next appointment in 3 months", "DepartmentID": 1}'
+python hospital_db.py add_patient '{"PatientID": 1006, "LastName": "Miller", "FirstName": "Liam", "DOB": "1986-03-14", "Gender": "Male", "Insurance": "Aetna", "PastProcedures": "Angioplasty", "Notes": "All well", "DepartmentID": 1}'
+python hospital_db.py add_patient '{"PatientID": 1007, "LastName": "Wilson", "FirstName": "Charlotte", "DOB": "1972-07-09", "Gender": "Female", "Insurance": "Blue Cross", "PastProcedures": "Stent placement", "Notes": "Needs medication adjustment", "DepartmentID": 1}'
+python hospital_db.py add_patient '{"PatientID": 1008, "LastName": "Roberts", "FirstName": "Zoe", "DOB": "1973-05-25", "Gender": "Female", "Insurance": "Aetna", "PastProcedures": "Stent placement", "Notes": "Medication adjusted", "DepartmentID": 1}'
+python hospital_db.py add_patient '{"PatientID": 1009, "LastName": "Turner", "FirstName": "William", "DOB": "1987-09-18", "Gender": "Male", "Insurance": "Blue Cross", "PastProcedures": "Heart valve surgery", "Notes": "Successful surgery", "DepartmentID": 1}'
+python hospital_db.py add_patient '{"PatientID": 1010, "LastName": "Phillips", "FirstName": "Harper", "DOB": "1989-12-08", "Gender": "Female", "Insurance": "UnitedHealth", "PastProcedures": "Pacemaker implant", "Notes": "Regular cardiology visits", "DepartmentID": 1}'
+
+
+Dept 2:
+python hospital_db.py add_patient '{"PatientID": 2001, "LastName": "Morris", "FirstName": "Lucy", "DOB": "2010-06-01", "Gender": "Female", "Insurance": "Blue Cross", "PastProcedures": "Tonsillectomy", "Notes": "Follow-up due in one year", "DepartmentID": 2}'
+python hospital_db.py add_patient '{"PatientID": 2002, "LastName": "Rogers", "FirstName": "Evan", "DOB": "2012-05-15", "Gender": "Male", "Insurance": "UnitedHealth", "PastProcedures": "Ear tube insertion", "Notes": "No complications", "DepartmentID": 2}'
+python hospital_db.py add_patient '{"PatientID": 2003, "LastName": "Reed", "FirstName": "Anna", "DOB": "2013-07-30", "Gender": "Female", "Insurance": "Kaiser", "PastProcedures": "Appendectomy", "Notes": "Recovery on track", "DepartmentID": 2}'
+python hospital_db.py add_patient '{"PatientID": 2004, "LastName": "Cook", "FirstName": "Noah", "DOB": "2008-08-25", "Gender": "Male", "Insurance": "Cigna", "PastProcedures": "Fracture repair", "Notes": "Physical therapy ongoing", "DepartmentID": 2}'
+python hospital_db.py add_patient '{"PatientID": 2005, "LastName": "Bailey", "FirstName": "Mia", "DOB": "2011-01-05", "Gender": "Female", "Insurance": "Humana", "PastProcedures": "Allergic reaction treatment", "Notes": "Allergen tests scheduled", "DepartmentID": 2}'
+python hospital_db.py add_patient '{"PatientID": 2006, "LastName": "Bell", "FirstName": "Liam", "DOB": "2014-03-18", "Gender": "Male", "Insurance": "Aetna", "PastProcedures": "Regular vaccinations", "Notes": "Up-to-date on shots", "DepartmentID": 2}'
+python hospital_db.py add_patient '{"PatientID": 2007, "LastName": "Gomez", "FirstName": "Sophia", "DOB": "2009-04-27", "Gender": "Female", "Insurance": "Blue Cross", "PastProcedures": "Asthma management", "Notes": "Monitor peak flow", "DepartmentID": 2}'
+python hospital_db.py add_patient '{"PatientID": 2008, "LastName": "Murray", "FirstName": "Jackson", "DOB": "2010-11-19", "Gender": "Male", "Insurance": "UnitedHealth", "PastProcedures": "Dental braces fitting", "Notes": "Orthodontic checkup due", "DepartmentID": 2}'
+python hospital_db.py add_patient '{"PatientID": 2009, "LastName": "Tucker", "FirstName": "Olivia", "DOB": "2012-09-23", "Gender": "Female", "Insurance": "Kaiser", "PastProcedures": "Bronchitis treatment", "Notes": "Improving, continue meds", "DepartmentID": 2}'
+python hospital_db.py add_patient '{"PatientID": 2010, "LastName": "Dixon", "FirstName": "Ethan", "DOB": "2013-12-08", "Gender": "Male", "Insurance": "Cigna", "PastProcedures": "Minor laceration", "Notes": "Healed well", "DepartmentID": 2}'
+python hospital_db.py add_patient '{"PatientID": 2011, "LastName": "Moss", "FirstName": "Chloe", "DOB": "2008-06-20", "Gender": "Female", "Insurance": "Humana", "PastProcedures": "Checkup and immunizations", "Notes": "Healthy development", "DepartmentID": 2}'
+python hospital_db.py add_patient '{"PatientID": 2012, "LastName": "Fletcher", "FirstName": "Aiden", "DOB": "2011-05-22", "Gender": "Male", "Insurance": "Aetna", "PastProcedures": "Nut allergy diagnosis", "Notes": "Carry epinephrine", "DepartmentID": 2}'
+
+
+Dept 3:
+python hospital_db.py add_patient '{"PatientID": 3001, "LastName": "Mason", "FirstName": "Lara", "DOB": "1978-01-25", "Gender": "Female", "Insurance": "Blue Cross", "PastProcedures": "MRI scan for brain", "Notes": "Follow-up needed for analysis", "DepartmentID": 3}'
+python hospital_db.py add_patient '{"PatientID": 3002, "LastName": "Ray", "FirstName": "Jason", "DOB": "1982-02-28", "Gender": "Male", "Insurance": "UnitedHealth", "PastProcedures": "X-ray of left leg", "Notes": "Fracture identified, treatment planned", "DepartmentID": 3}'
+python hospital_db.py add_patient '{"PatientID": 3003, "LastName": "Fox", "FirstName": "Emma", "DOB": "1990-03-30", "Gender": "Female", "Insurance": "Kaiser", "PastProcedures": "Ultrasound of the abdomen", "Notes": "Clear, no issues found", "DepartmentID": 3}'
+python hospital_db.py add_patient '{"PatientID": 3004, "LastName": "Holmes", "FirstName": "Michael", "DOB": "1975-04-12", "Gender": "Male", "Insurance": "Cigna", "PastProcedures": "CT scan for chest", "Notes": "Monitor for changes, next scan in 6 months", "DepartmentID": 3}'
+python hospital_db.py add_patient '{"PatientID": 3005, "LastName": "Booth", "FirstName": "Sophia", "DOB": "1988-05-14", "Gender": "Female", "Insurance": "Humana", "PastProcedures": "Mammography", "Notes": "Normal results, routine check-up", "DepartmentID": 3}'
+python hospital_db.py add_patient '{"PatientID": 3006, "LastName": "Bennett", "FirstName": "Lucas", "DOB": "1980-06-16", "Gender": "Male", "Insurance": "Aetna", "PastProcedures": "PET scan", "Notes": "Awaiting oncology review", "DepartmentID": 3}'
+python hospital_db.py add_patient '{"PatientID": 3007, "LastName": "Pearson", "FirstName": "Amelia", "DOB": "1989-07-18", "Gender": "Female", "Insurance": "Blue Cross", "PastProcedures": "Bone density scan", "Notes": "Suggest supplementation", "DepartmentID": 3}'
+python hospital_db.py add_patient '{"PatientID": 3008, "LastName": "Anderson", "FirstName": "Ethan", "DOB": "1974-08-20", "Gender": "Male", "Insurance": "UnitedHealth", "PastProcedures": "Cardiac CT", "Notes": "Heart condition stable", "DepartmentID": 3}'
+python hospital_db.py add_patient '{"PatientID": 3009, "LastName": "West", "FirstName": "Mia", "DOB": "1992-09-22", "Gender": "Female", "Insurance": "Kaiser", "PastProcedures": "Dental X-ray", "Notes": "Dental work required", "DepartmentID": 3}'
+python hospital_db.py add_patient '{"PatientID": 3010, "LastName": "Griffin", "FirstName": "Noah", "DOB": "1986-10-24", "Gender": "Male", "Insurance": "Cigna", "PastProcedures": "Virtual colonoscopy", "Notes": "All clear", "DepartmentID": 3}'
+python hospital_db.py add_patient '{"PatientID": 3011, "LastName": "Dunn", "FirstName": "Isabella", "DOB": "1994-11-26", "Gender": "Female", "Insurance": "Humana", "PastProcedures": "Fluoroscopy of abdomen", "Notes": "Further tests scheduled", "DepartmentID": 3}'
+
+-- APPOINTMENTS
+
+Dep 1:
+python hospital_db.py add_appointment '{"ReceptionistID": 211115, "PatientID": 1000, "PractitionerID": 111111, "DepartmentID": 1, "AppointmentDate": "2024-03-19", "AppointmentTime": "10:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211116, "PatientID": 1001, "PractitionerID": 111112, "DepartmentID": 1, "AppointmentDate": "2024-04-19", "AppointmentTime": "12:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211114, "PatientID": 1002, "PractitionerID": 111113, "DepartmentID": 1, "AppointmentDate": "2024-03-10", "AppointmentTime": "10:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211114, "PatientID": 1003, "PractitionerID": 111114, "DepartmentID": 1, "AppointmentDate": "2024-03-14", "AppointmentTime": "10:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211116, "PatientID": 1004, "PractitionerID": 111115, "DepartmentID": 1, "AppointmentDate": "2024-03-16", "AppointmentTime": "12:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211117, "PatientID": 1005, "PractitionerID": 111116, "DepartmentID": 1, "AppointmentDate": "2024-03-13", "AppointmentTime": "11:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211113, "PatientID": 1006, "PractitionerID": 111117, "DepartmentID": 1, "AppointmentDate": "2024-03-15", "AppointmentTime": "10:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211113, "PatientID": 1007, "PractitionerID": 111118, "DepartmentID": 1, "AppointmentDate": "2024-03-15", "AppointmentTime": "11:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211115, "PatientID": 1008, "PractitionerID": 111119, "DepartmentID": 1, "AppointmentDate": "2024-03-12", "AppointmentTime": "12:00", "Notes": "Follow-up appointment"}'
+
+Dep 2:
+python hospital_db.py add_appointment '{"ReceptionistID": 211123, "PatientID": 2001, "PractitionerID": 111121, "DepartmentID": 2, "AppointmentDate": "2024-03-19", "AppointmentTime": "10:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211124, "PatientID": 2002, "PractitionerID": 111122, "DepartmentID": 2, "AppointmentDate": "2024-04-19", "AppointmentTime": "12:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211124, "PatientID": 2009, "PractitionerID": 111123, "DepartmentID": 2, "AppointmentDate": "2024-03-10", "AppointmentTime": "10:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211124, "PatientID": 2003, "PractitionerID": 111124, "DepartmentID": 2, "AppointmentDate": "2024-03-14", "AppointmentTime": "10:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211126, "PatientID": 2004, "PractitionerID": 111125, "DepartmentID": 2, "AppointmentDate": "2024-03-16", "AppointmentTime": "12:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211127, "PatientID": 2005, "PractitionerID": 111126, "DepartmentID": 2, "AppointmentDate": "2024-03-13", "AppointmentTime": "11:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211125, "PatientID": 2006, "PractitionerID": 111127, "DepartmentID": 2, "AppointmentDate": "2024-03-15", "AppointmentTime": "10:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211128, "PatientID": 2007, "PractitionerID": 111128, "DepartmentID": 2, "AppointmentDate": "2024-03-15", "AppointmentTime": "11:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211124, "PatientID": 2008, "PractitionerID": 111129, "DepartmentID": 2, "AppointmentDate": "2024-03-12", "AppointmentTime": "12:00", "Notes": "Follow-up appointment"}'
+
+Dep 3:
+python hospital_db.py add_appointment '{"ReceptionistID": 211133, "PatientID": 3009, "PractitionerID": 111131, "DepartmentID": 3, "AppointmentDate": "2024-03-19", "AppointmentTime": "10:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211134, "PatientID": 3001, "PractitionerID": 111132, "DepartmentID": 3, "AppointmentDate": "2024-04-19", "AppointmentTime": "12:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211133, "PatientID": 3002, "PractitionerID": 111133, "DepartmentID": 3, "AppointmentDate": "2024-03-10", "AppointmentTime": "10:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211133, "PatientID": 3003, "PractitionerID": 111134, "DepartmentID": 3, "AppointmentDate": "2024-03-14", "AppointmentTime": "10:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211136, "PatientID": 3004, "PractitionerID": 111135, "DepartmentID": 3, "AppointmentDate": "2024-03-16", "AppointmentTime": "12:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211137, "PatientID": 3005, "PractitionerID": 111136, "DepartmentID": 3, "AppointmentDate": "2024-03-13", "AppointmentTime": "11:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211134, "PatientID": 3006, "PractitionerID": 111137, "DepartmentID": 3, "AppointmentDate": "2024-03-15", "AppointmentTime": "10:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211135, "PatientID": 3007, "PractitionerID": 111138, "DepartmentID": 3, "AppointmentDate": "2024-03-15", "AppointmentTime": "11:00", "Notes": "Follow-up appointment"}'
+python hospital_db.py add_appointment '{"ReceptionistID": 211135, "PatientID": 3008, "PractitionerID": 111139, "DepartmentID": 3, "AppointmentDate": "2024-03-12", "AppointmentTime": "12:00", "Notes": "Follow-up appointment"}'

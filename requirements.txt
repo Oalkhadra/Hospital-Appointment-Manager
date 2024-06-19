@@ -1,0 +1,4 @@
+mysql-connector-python==8.3.0
+sqlalchemy==1.4.39
+streamlit==1.32.2
+bcrypt==4.1.2

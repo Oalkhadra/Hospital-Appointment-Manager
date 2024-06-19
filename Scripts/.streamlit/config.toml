@@ -1,0 +1,19 @@
+[theme]
+# Base theme: Light for a clean and professional look
+base = "light"
+
+# Primary color: A calming blue, often associated with healthcare
+primaryColor = "#1976D2"
+
+# Background color: A light grey, which reduces eye strain
+backgroundColor = "#FAFAFA"
+
+# Secondary background color: A slightly darker grey to distinguish sections
+secondaryBackgroundColor = "#E0E0E0"
+
+# Text color: Dark grey for strong contrast without being as harsh as pure black
+textColor = "#212121"
+
+# Font: Choose a font that's easy to read; sans-serif is generally more accessible
+font = "sans serif"
+
